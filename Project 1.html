@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <title>Project 1</title>
-
+    <lable>
     <h4> hello world</h4>
     <h3> Big  </h3>
     <h4> Not so Big </h4>
      <h4> Not Really Big</h4>   
+    </lable>
      <section class="section1">
         <div>
             <p>This is
@@ -24,7 +25,7 @@
         Real Sold my in call Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.
     </p>
     
-        <a href="https://google.com">GOOGlE</a>
+        <a href="https://google.com" target="_blank">GOOGlE</a>
 
         <p>item 1</p>
         <p>item 2</p>
@@ -33,6 +34,52 @@
 
         <img src="https://i.eurosport.com/2013/02/14/954199-19584373-2560-1440.jpg" alt="banner_img">
         
+        <form type="submit" method="POST" action="thankyou.html">
+            <label>Enter Name</lable>
+            <input type="text" name="name" class="name" id="fname" placeholder="Enter your name" required></input><br>
+
+            <lable>Enter Phone No</lable>
+            <input type="number" name="phone" class="phone" id="fphone" placeholder="Enter your  Phone No"></input><br>
+
+            <lable>Enter Email</lable>
+            <input type="email" name="email" class="email" id="femail" value="abcd@gmail.com" readonly></input><br>
+
+            <input type="submit"></input><br/>
+            <!-- <button type="button">click me</button> -->
+            
+            <lable>Which vehicle do you have?</lable><br/>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br/>
+
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <lable for="vehicle2"> I have a car</lable><br/>
+
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Scooty">
+            <lable for="vehicle3"> I have a scooty</lable><br/>
+
+
+            <lable>What is your Gender?</lable><br/>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label><br/>
+
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label><br/>
+
+            <input type="radio" id="transgender" name="Gender" value="Transgender">
+            <label for="transgender">Transgender</label><br/>
+
+
+            <lable>Please choose a file</lable><br/>
+            <input type="file" id="myFile" name="filename"><br/>
+
+            
+            <label for="review">Please leave a message</label><br/>
+            <textarea id="review" name="review" rows="6" cols="60">
+            </textarea><br/>
+            <input type="submit"><br/>
+
+
+        </form>
     
 
 </html>
